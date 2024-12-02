@@ -1,6 +1,2 @@
-### Project 1: 
-#### Radar chart or spider chart in Python using pandas, plotly and go.Scatterpolar
-###### In this video, I show how to create a radar chart or spidar chart in Python using pandas, plotly and go.Scatterpolar. I present two cases here; a chart with one trace and one with three traces. To create the chart, I i) created a polygon radar chart using a linear gridshape, ii) used angularaxis_tickfont, radialaxis_range, radialaxis_dtick and radialaxis_showticklabels to have the desired style,  and iii) put a legend and a title using fig.update_layout and style the chart by fig.update_polars. Hope you find it useful. Useful link: https://www.plotly.com/python/reference/layout/polar/
-
-#### Project 2: 
-###### Radar chart or spider chart in Python using make_subplots in plotly and go.Scatterpolar
+### Project 1: Radar chart or spider chart in Python using pandas, plotly and go.Scatterpolar
+### Project 2: Radar chart or spider chart in Python using make_subplots in plotly and go.Scatterpolar
