@@ -1,0 +1,15 @@
+I show how to create multiple radar charts or spidar charts in one figure in Python using pandas, make_subplots in plotly and go.Scatterpolar. 
+
+I present two cases here; a figure with three radar charts in a row and a figure with 15 radar charts (5 rows and 3 columns). I 
+
+i) used make_subplots to create a lay-out with desired number of rows and columns, 
+ii) used go.Scatterpolar to add traces to the figure at their right places, 
+iii) used update_annotations to edit the subplots' titles, 
+iv) put a title using fig.update_layout, 
+v) created a polygon radar chart using a linear gridshape, 
+vi) used update_polars to style angular and radial axes features 
+vii) used tickvals and ticktext to replace numbers with words
+
+Hope you find it useful. 
+https://www.plotly.com/python/reference/layout/polar/
+
