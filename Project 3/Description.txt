@@ -1,0 +1,12 @@
+I show how to create radar charts or spidar charts in in Python using matplotlib. 
+
+I present three cases here; a figure with one trace attached to a radar chart, a figure with three traces attached to a radar charts and a figure with three subplots (each containing one trace). 
+
+fig, ax = plt.subplots(subplot_kw={'projection': 'polar'}, dpi=150) 
+allows us to create a figure with polar projection
+
+ax.set_thetagrids and ax.set_rmax
+allow us to modify the figure
+
+fig, ax = plt.subplots(1, 3, subplot_kw={'projection': 'polar'}, gridspec_kw={'wspace': 0.5}, dpi=150)
+allows us to create a figure with three subplots in a row with polar projection
