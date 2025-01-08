@@ -1,0 +1,16 @@
+In this project, I will consider 3 cases/scenarios to show you how we can have subplots with different types (or attributes) all in one figure. You may find the following links helpful, 
+
+Basic plot types in matplotlib:
+https://matplotlib.org/3.7.0/plot_types/index.html
+
+Projections in matplotlib:
+Link1: https://stackoverflow.com/questions/33942233/how-do-i-change-matplotlibs-subplot-projection-of-an-existing-axis
+Link2: https://matplotlib.org/stable/gallery/subplots_axes_and_figures/geo_demo.html
+
+Detailed discussion on...
+fig = plt.figure() 
+ax1 = fig.add_subplot(), this is in fact an expanded version of the following,
+fig, ax = plt.subplots()
+Link: https://stackoverflow.com/questions/34162443/why-do-many-examples-use-fig-ax-plt-subplots
+
+
