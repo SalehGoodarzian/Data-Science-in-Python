@@ -6,3 +6,5 @@
 ##### Radar chart or spider chart in Python using matplotlib (single trace, multiple traces and multiple subplots)
 ### Project 4: 
 ##### Subplots with different types (or attributes) and projections in one figure in matplotlib in Python
+### Project 5: 
+##### Radar chart with multiple scales on multiple axes in matplotlib in Python
