@@ -8,3 +8,5 @@
 ##### Subplots with different types (or attributes) and projections in one figure in matplotlib in Python
 ### Project 5: 
 ##### Radar chart with multiple scales on multiple axes in matplotlib in Python
+### Project 6: 
+##### Grouped stacked bar chart in matplotlib in Python
