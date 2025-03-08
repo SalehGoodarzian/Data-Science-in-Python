@@ -10,3 +10,5 @@
 ##### Radar chart with multiple scales on multiple axes in matplotlib in Python
 ### Project 6: 
 ##### Grouped stacked bar chart in matplotlib in Python
+### Project 7: 
+##### Bump chart in matplotlib in Python
