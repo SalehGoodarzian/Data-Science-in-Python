@@ -12,3 +12,6 @@
 ##### Grouped stacked bar chart in matplotlib in Python
 ### Project 7: 
 ##### Bump chart in matplotlib in Python
+### Project 8: 
+##### Colormaps for line plots and bar charts in matplotlib and plotly in Python
+
