@@ -14,4 +14,5 @@
 ##### Bump chart in matplotlib in Python
 ### Project 8: 
 ##### Colormaps for line plots and bar charts in matplotlib and plotly in Python
-
+### Project 9: 
+##### How to access elements in a DataFrame in Python (df.iloc and df.loc)
