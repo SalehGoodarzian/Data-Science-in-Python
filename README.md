@@ -16,3 +16,5 @@
 ##### Colormaps for line plots and bar charts in matplotlib and plotly in Python
 ### Project 9: 
 ##### How to access elements in a DataFrame in Python (df.iloc and df.loc)
+### Project 10 & 11: 
+##### Important functions for DataFrames in Python
