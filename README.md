@@ -18,3 +18,5 @@
 ##### How to access elements in a DataFrame in Python (df.iloc and df.loc)
 ### Project 10 & 11: 
 ##### Important functions for DataFrames in Python
+### Project 12: 
+##### How to set different background colours in different regions in a matplotlib plot in Python
