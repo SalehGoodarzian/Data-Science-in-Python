@@ -25,4 +25,4 @@
 ### Project 14: 
 ##### Working with missing data in a DataFrame in Python with two practice question
 ### Project 15: 
-##### When to use Apply in Dataframes in Python
+##### Apply in Dataframes in Python; when to use it and when not
