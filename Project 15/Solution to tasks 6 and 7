@@ -1,0 +1,34 @@
+Solution to task 6:
+df['Years of service'] = datetime.now().year - df['Hire Date']
+
+def f1(s, service):
+    if s == 'M' and service > 10:
+        return True
+    if s == 'F' and service > 8:
+        return True
+    else:
+        return False
+
+df['Comment'] = df.apply(lambda x: f1(x['Sex'], x['Years of service']), axis=1)
+promotion = df.loc[df['Comment'] == True]
+print(promotion['Employee Name'].tolist())
+
+Short solution without using apply
+promotion = df.loc[((df['Sex'] == 'M') & (df['Years of service'] > 10)) | ((df['Sex'] == 'F') & (df['Years of service'] > 8))]
+print(promotion['Employee Name'].tolist())
+
+===========================================
+Solution to task 7:
+def f1(s, d):
+    if s == 'F' and d == 'Engineering':
+        return True
+    else:
+        return False
+
+df['Gifts'] = df.apply(lambda x: f1(x['Sex'], x['Department']), axis=1)
+gifts = df.loc[df['Gifts'] == True]
+print(gifts['Employee Name'].tolist())
+
+Short solution without using apply
+gifts = df.loc[(df['Sex'] == 'F') & (df['Department'] == 'Engineering')]
+print(gifts['Employee Name'].tolist())
